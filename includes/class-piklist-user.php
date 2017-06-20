@@ -33,6 +33,7 @@ class Piklist_User
     add_action('init', array('piklist_user', 'init'));
     add_action('show_user_profile', array('piklist_user', 'meta_box'));
     add_action('edit_user_profile', array('piklist_user', 'meta_box'));
+    add_action('user_new_form', array('piklist_user', 'meta_box'));
   }
   
   /**
